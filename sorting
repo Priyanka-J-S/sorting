@@ -1,0 +1,9 @@
+# Using sorted() function
+unsorted_list = [3, 1, 5, 2, 4]
+sorted_list = sorted(unsorted_list)
+print("Sorted list using sorted():", sorted_list)
+
+# Using sort() method for lists (in-place sorting)
+another_list = [7, 2, 6, 1, 4]
+another_list.sort()
+print("Sorted list using sort() method:", another_list)
